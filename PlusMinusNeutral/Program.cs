@@ -1,6 +1,5 @@
 ﻿class Result
 {
-
     /*
      * Complete the 'plusMinus' function below.
      *
@@ -9,14 +8,14 @@
 
     public static void plusMinus(List<int> arr)
     {
-        int n = arr.Count;
+        int n = arr.Count;  
         var categoryOfElements = numCnt(arr);
         int posNumCnt = categoryOfElements[0];
         int negNumCnt = categoryOfElements[1];
         int zeroNumCnt = categoryOfElements[2];
-        Console.WriteLine(((float)posNumCnt / n).ToString("N32"));
-        Console.WriteLine(((float)negNumCnt / n).ToString("N32"));
-        Console.WriteLine(((float)zeroNumCnt / n).ToString("N32"));
+        Console.WriteLine("Probability of Positive Numbers: " + ((float)posNumCnt / n).ToString("N32"));
+        Console.WriteLine("Probability of Negative Numbers: " + ((float)negNumCnt / n).ToString("N32"));
+        Console.WriteLine("Probability of Number of Zeros: " + ((float)zeroNumCnt / n).ToString("N32"));
     }
 
     public static int[] numCnt(List<int> arr)
@@ -49,7 +48,7 @@ class Solution
 {
     public static void Main(string[] args)
     {
-        int n = Convert.ToInt32(value: Console.ReadLine().Trim());
+        Console.WriteLine("Enter a list of integers horizontally separated by a blank space:");
         List<int> arr = Console.ReadLine().TrimEnd()
         .Split(' ').ToList()
         .Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();

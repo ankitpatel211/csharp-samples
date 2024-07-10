@@ -1,0 +1,17 @@
+﻿Notepad++:  
+Problem: “Search & Replace Asserted Text” 
+Solution:
+Regex Pattern: ^((hh):(mm)) (am/pm)$ 
+Regex Characters: 
+1. ^ = Starting of a finding portion of a Line
+2. $ = Ending of a finding portion of a Line
+3. () = Grouping 
+Regular Expression: ((([1-9]|1[0-2]):([0-5][0-9]))\s(am|AM|pm|PM)) 
+
+Follow these steps for a replacement of asserted text using regular expression:
+1. Ctrl + H to find & replace 
+2. Find what: ((([1-9]|1[0-2]):([0-5][0-9]))\s(am|AM|pm|PM)) 
+3. Replace with: “${1}” 
+4. Selected Checkboxes: Match case, Wrap around. 
+5. Search Mode: Regular Expression 
+6. Click Replace for Single Line or Replace All for Multiple Lines.  

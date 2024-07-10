@@ -1,0 +1,111 @@
+﻿"Sept-12-23" "Tuesday" 9:46 AM
+"Sept-12-23" "Tuesday" 9:56 AM
+"Sept-12-23" "Tuesday" 10:03 AM
+"Sept-12-23" "Tuesday" 10:31 AM
+"Sept-12-23" "Tuesday" 10:51 AM
+"Sept-12-23" "Tuesday" 11:10 AM "TV" 
+"Sept-12-23" "Tuesday" 11:33 AM "Spectrum Appointment"
+"Sept-12-23" "Tuesday" 11:55 AM 
+"Sept-12-23" "Tuesday" 12:02 PM
+"Sept-12-23" "Tuesday" 12:09 PM "Water"
+"Sept-12-23" "Tuesday" 12:13 PM "Diwali Event" "Annual Picnic Day"
+"Sept-12-23" "Tuesday" 12:17 PM "Mom:Opened door & told to come out of your room"
+"Sept-12-23" "Tuesday" 12:20 PM "Lunch with family"
+"Sept-12-23" "Tuesday" 12:20 PM "Mom:Talked about moving India, 
+Selling Car, TV & Dining Table couple of times"
+"Sept-12-23" "Tuesday" 12:30 PM "Dad:Call with Iva for marriage"
+"Sept-12-23" "Tuesday" 12:55 PM "Back to work"
+"Sept-12-23" "Tuesday" 1:08 PM "Mom:Discussing about a labor job 
+with Dad while cleaning dishes"
+"Sept-12-23" "Tuesday" 1:45 PM "Appologize"
+"Sept-12-23" "Tuesday" 1:47 PM "Sir, It wasn't for you"
+"Sept-12-23" "Tuesday" 2:00 PM "Worst reaction on marriage thoughts"
+"Sept-12-23" "Tuesday" 2:01 PM "What do I do if aged, tell me?"
+"Sept-12-23" "Tuesday" 2:06 PM "Enough"
+"Sept-12-23" "Tuesday" 2:35 PM "Warm up excercise - push ups(13) & crunches"
+"Sept-12-23" "Tuesday" 2:57 PM "Dad came in my room"
+"Sept-12-23" "Tuesday" 3:14 PM "Water"
+"Sept-12-23" "Tuesday" 4:00 PM "Spectrum Coaxial Cables"
+"Sept-12-23" "Tuesday" 6:00 PM "TV AAG, Yamla Pagla Diwana 2011"
+"Sept-12-23" "Tuesday" 9:50 PM "Ugly Chips"
+"Sept-12-23" "Tuesday" 9:54 PM "Mobile Facebook"
+"Sept-12-23" "Tuesday" 9:54 PM "Detailed coversation with Mom 
+on family culture in India"
+"Sept-12-23" "Tuesday" 10:30 PM "In Sleep"
+
+"Sept-13-23" "Wednesday" 9:34 AM "Brain Torturing"
+"Sept-13-23" "Wednesday" 9:49 AM "Radhe Krishna Temple Janmasthami 
+Facebook Pictures"
+"Sept-13-23" "Wednesday" 10:00 AM "Gmail"
+"Sept-13-23" "Wednesday" 10:13 AM "Sir, Love you"
+"Sept-13-23" "Wednesday" 10:25 AM "Water"
+"Sept-13-23" "Wednesday" 10:28 AM "Chair - Cleaning White Spot"
+"Sept-13-23" "Wednesday" 10:34 AM "Kishan Green Card Engagement"
+"Sept-13-23" "Wednesday" 10:44 AM "Mom: WhatsApp Call Chandni"
+"Sept-13-23" "Wednesday" 11:08 AM "Gujarati (Swami Narayan & Shah)"
+"Sept-13-23" "Wednesday" 11:11 AM "Gujarati (Ressurection of BCBS fuckingly no where)"
+"Sept-13-23" "Wednesday" 11:15 AM "Gujarati (Tane nathi khabar padti)"
+"Sept-13-23" "Wednesday" 11:16 AM "Gujarati (Ala aem openely kahi sakay aem 
+nathi to Jigar)"
+"Sept-13-23" "Wednesday" 11:19 AM "Gujarati (Aa India nathi)"
+"Sept-13-23" "Wednesday" 11:20 AM "Gujarati (Aa type no behavior changer j rahese)"
+"Sept-13-23" "Wednesday" 11:22 AM "Gujarati (Ankitkumar Watchout)"
+"Sept-13-23" "Wednesday" 11:24 AM "It doesn't matter"
+"Sept-13-23" "Wednesday" 11:24 AM "Comparison with Animal run"
+"Sept-13-23" "Wednesday" 11:26 AM "Gujarati (Ressurection of BCBS)"
+"Sept-13-23" "Wednesday" 11:27 AM "Gujarati (Zaapat aani pase maravdavi)"
+"Sept-13-23" "Wednesday" 11:28 AM "Gujarati (BCBS ae type nu bankrupt thai chukelu)"
+"Sept-13-23" "Wednesday" 11:29 AM "Gujarati (Clearing cough not by myself)"
+"Sept-13-23" "Wednesday" 11:31 AM "Gujarati (Dad link to 62 by dad - aavu kari 
+sakatu nathi)"
+"Sept-13-23" "Wednesday" 11:33 AM "Gujarati (Marta nahi ae type nu nathi ahiyanu)"
+"Sept-13-23" "Wednesday" 11:34 AM "Gujarati (Aa badu Swami Narayan na account 
+ma aavtu hoy)"
+"Sept-13-23" "Wednesday" 11:38 AM "Hindi Punjabi (Swami Narayan ke chut-iy-)"
+"Sept-13-23" "Wednesday" 11:40 AM "Moved my head left & right - ears ringing"
+"Sept-13-23" "Wednesday" 11:42 AM "Gujarati (Ame lokoae taru kharab su karyu) 
+- Lalitbhai school teacher"
+"Sept-13-23" "Wednesday" 11:45 AM "Gujarati (World level par BAPS nu 
+behavior changer of BCBS)"
+"Sept-13-23" "Wednesday" 11:48 AM "Gujarati (Tari pase Job nahoti aenu 
+reason pan BAPS j hatu)"
+"Sept-13-23" "Wednesday" 11:50 AM "Gujarati (Ae type no aek pan thought 
+humanity ma joie nahi)"
+"Sept-13-23" "Wednesday" 11:50 AM "Gujarati (Bhos-ik- aa Hinduism BAPS nu nathi)"
+"Sept-13-23" "Wednesday" 11:52 AM "Gujarati (To sukam jivi rahelo hoy "Marna Padega")"
+"Sept-13-23" "Wednesday" 11:53 AM "Gujarati (Gentleman - Humanity ma 
+joi pan sakay nahi)"
+"Sept-13-23" "Wednesday" 11:55 AM "Gujarati (Thoughts ae thoughts ae jealousy 
+feel karaveli hoy)"
+"Sept-13-23" "Wednesday" 11:56 AM "Gujarati (Hu Ressurection Whites ma bilkul 
+believe karti nathi) Lady voice"
+"Sept-13-23" "Wednesday" 11:58 AM "Gujarati (Tamaru NJ Swami Narayan ma 
+conversion thai chukelu hoy) Lady voice"
+"Sept-13-23" "Wednesday" 12:00 PM "Gujarati (Aa extremely BAPS nu behavior j hatu)"
+"Sept-13-23" "Wednesday" 12:00 PM "Gujarati (BAPS nu behavior j hatu "We no more 
+believe in Humanity")"
+"Sept-13-23" "Wednesday" 12:04 PM "Enough is enough"
+"Sept-13-23" "Wednesday" 12:06 PM "Gujarati (Aa India nathi)"
+"Sept-13-23" "Wednesday" 12:06 PM "Gujarati (Tu ahiya paisa vagar 
+swas pan lai sake aem nathi)"
+"Sept-13-23" "Wednesday" 12:08 PM "Gujarati (Improvement vagar jivan jivatu nathi)"
+"Sept-13-23" "Wednesday" 12:16 PM "Gujarati (Swami Narayan na bhakto nathi,
+Ressurection through Swami Narayan na bhakto hoy) Harshil Jhala"
+"Sept-13-23" "Wednesday" 12:16 PM "Gujarati (Kai pan thought thi nahi kari sakay) 
+Dropped Ear wax removal"
+"Sept-13-23" "Wednesday" 12:59 PM "Back from Lunch"
+"Sept-13-23" "Wednesday" 1:03 PM "Warm up excercise "not my intentions""
+"Sept-13-23" "Wednesday" 1:13 PM "Sir, We are no more Lovers"
+"Sept-13-23" "Wednesday" 1:37 PM "Entertain karvanu complete band aaj pachhi"
+"Sept-13-23" "Wednesday" 1:42 PM "Don't be a Sir, don't waste 
+time thinking & talking"
+"Sept-13-23" "Wednesday" 3:00 PM "College - Theory, Practical"
+"Sept-13-23" "Wednesday" 4:00 PM "Compatibility, Conflict, Flexible"
+"Sept-13-23" "Wednesday" 5:30 PM "Riding my car"
+"Sept-13-23" "Wednesday" 5:45 PM "Return comforters, bedsheets
+& pillows, patio sitting"
+"Sept-13-23" "Wednesday" 6:00 PM "Dinner at PCR"
+"Sept-13-23" "Wednesday" 7:00 PM "Played table tennis warm up & 1 game"
+"Sept-13-23" "Wednesday" 7:30 PM "Outdoor walk & Frisco Flyer with 
+fake likeble feelings"
+"Sept-13-23" "Wednesday" 8:30 PM "Back home"

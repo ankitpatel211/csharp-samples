@@ -1,4 +1,4 @@
-﻿string ATMPIN = "123456";
+﻿string ATMPIN = "2345";
 if (ATMPIN.Length == 4)
 {
     if ((ATMPIN[0] == ATMPIN[1]) 

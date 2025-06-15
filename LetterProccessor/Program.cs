@@ -1,7 +1,7 @@
-﻿string input = "this interview is for full stack developer with new string";
+﻿string input = "this interview is for full stack developer with string";
 string storedLetters = string.Empty;
 string renewedLetters = string.Empty;
-string subStringChar = string.Empty;
+string subStringChar = string.Empty;	
 string lastWord = string.Empty;
 int wordCounter = 0;
 int charCounter = 0;

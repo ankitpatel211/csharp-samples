@@ -25,11 +25,11 @@ if (match.Success) {
         replaceText += " in the morning";
     } else if (((hour >= 00 && hour <= 03) || hour == 12) && amPm == "PM") {
         replaceText += " in the afternoon";
-    } else if ((hour >= 03 && hour <= 07) && amPm == "PM") {
+    } else if ((hour > 03 && hour < 07) && amPm == "PM") {
         replaceText += " in the evening";
     } else if ((hour >= 07 && hour < 12) && amPm == "PM") {
         replaceText += " in the night";
-    } else if (((hour >= 00 && hour <= 07) || hour == 12) && amPm == "AM") { 
+    } else if (((hour >= 00 && hour < 07) || hour == 12) && amPm == "AM") { 
         replaceText += " in the midnight";
     }
     var newInput = input.Replace(match.Value, replaceText);

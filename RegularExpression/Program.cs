@@ -14,19 +14,22 @@ if (match.Success) {
     int firstIndex = length - (length - 1);
     int thirdIndex = length - ((length - 1) - 1) + 1;
     int fourthIndex = length - (((length - 1) - 1) - 1) + 1;
-    string hours = match.Value[zerothIndex].ToString() + "" + match.Value[firstIndex].ToString();
-    string minutes = match.Value[thirdIndex].ToString() + "" + match.Value[fourthIndex].ToString();
+    string hourText = match.Value[zerothIndex].ToString() + match.Value[firstIndex].ToString();
+    string minuteText = match.Value[thirdIndex].ToString() + match.Value[fourthIndex].ToString();
     string amPm = currentTime[(length - 1) - 1].ToString() + currentTime[length - 1].ToString();
-    var replaceText = hours + " hours and " + minutes + " minutes";
-    if (Convert.ToInt16(hours) >= 07 && Convert.ToInt16(hours) < 12 && amPm == "AM") {
+    var hour = Convert.ToInt16(hourText);
+    var minute = Convert.ToInt16(minuteText);
+    var replaceText = hourText + (hour >= 2 && hour <= 12 ? " hours" : " hour") 
+                    + " and " + minuteText + (minute >= 2 && minute <= 59 ? " minutes" : " minute") + "";
+    if ((hour >= 07 && hour < 12) && amPm == "AM") {
         replaceText += " in the morning";
-    } else if (((Convert.ToInt16(hours) >= 00 && Convert.ToInt16(hours) <= 03) || Convert.ToInt16(hours) == 12) && amPm == "PM") {
+    } else if (((hour >= 00 && hour <= 03) || hour == 12) && amPm == "PM") {
         replaceText += " in the afternoon";
-    } else if (Convert.ToInt16(hours) >= 03 && Convert.ToInt16(hours) <= 07 && amPm == "PM") {
+    } else if ((hour >= 03 && hour <= 07) && amPm == "PM") {
         replaceText += " in the evening";
-    } else if (Convert.ToInt16(hours) >= 07 && Convert.ToInt16(hours) < 12 && amPm == "PM") {
+    } else if ((hour >= 07 && hour < 12) && amPm == "PM") {
         replaceText += " in the night";
-    } else if (((Convert.ToInt16(hours) >= 00 && Convert.ToInt16(hours) <= 07) || Convert.ToInt16(hours) == 12) && amPm == "AM") { 
+    } else if (((hour >= 00 && hour <= 07) || hour == 12) && amPm == "AM") { 
         replaceText += " in the midnight";
     }
     var newInput = input.Replace(match.Value, replaceText);

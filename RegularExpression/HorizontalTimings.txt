@@ -1,0 +1,18 @@
+﻿
+Morning  Afternoon Evening  Night    Mid-Night
+07:00 AM 12:00 PM  04:00 PM 07:00 PM 12:00 AM 
+08:00 AM 12:30 PM  05:00 PM 08:00 PM 12:30 AM
+09:00 AM 01:00 PM  06:00 PM 09:00 PM 01:00 AM
+10:00 AM 02:00 PM  			10:00 PM 02:00 AM
+11:00 AM 03:00 PM			11:00 PM 03:00 AM
+11:59 AM					11:59 PM 04:00 AM
+									 05:00 AM
+								     06:00 AM
+
+Regex use for vertical to horizontal data (time in AM/PM format) modification
+Morning: (((0[7-9]|1[0-1]):([0-5][0-9]))\s?(am|AM))
+Afternoon: (((0[1-3]|1[2]):([0-5][0-9]))\s?(pm|PM))
+Evening: (((0[4-6]):([0-5][0-9]))\s?(pm|PM))
+Night: (((0[7-9]|1[0-1]):([0-5][0-9]))\s?(pm|PM))
+Mid-Night: (((0[1-6]|1[2]):([0-5][0-9]))\s?(am|AM))
+

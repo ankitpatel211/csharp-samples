@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 string todayDate = DateTime.Now.ToString("MM/dd/yyyy");
 string currentTime = DateTime.Now.ToString("hh:mm tt").Trim();
 string input = "Today is " + todayDate + " and current time is " + currentTime + ".";
-string regExp = "(((00|0?[1-9]|1[0-2]):([0-5][0-9]))\\s?(am|AM|pm|PM))";
+string regExp = "(((0?[1-9]|1[0-2]):([0-5][0-9]))\\s?(am|AM|pm|PM))";
 Regex regex = new(regExp);
 var match = regex.Match(input);
 if (match.Success) {
@@ -23,13 +23,13 @@ if (match.Success) {
                     + " and " + minuteText + (minute >= 2 && minute <= 59 ? " minutes" : " minute") + "";
     if ((hour >= 07 && hour < 12) && amPm == "AM") {
         replaceText += " in the morning";
-    } else if (((hour >= 00 && hour <= 03) || hour == 12) && amPm == "PM") {
+    } else if (((hour >= 01 && hour <= 03) || hour == 12) && amPm == "PM") {
         replaceText += " in the afternoon";
-    } else if ((hour > 03 && hour < 07) && amPm == "PM") {
+    } else if ((hour >= 04 && hour <= 06) && amPm == "PM") {
         replaceText += " in the evening";
     } else if ((hour >= 07 && hour < 12) && amPm == "PM") {
         replaceText += " in the night";
-    } else if (((hour >= 00 && hour < 07) || hour == 12) && amPm == "AM") { 
+    } else if (((hour >= 01 && hour <= 06) || hour == 12) && amPm == "AM") { 
         replaceText += " in the midnight";
     }
     var newInput = input.Replace(match.Value, replaceText);

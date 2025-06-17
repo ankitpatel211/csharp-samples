@@ -1,19 +1,26 @@
-﻿Notepad++:  
-Problem: “Search & Replace Asserted Time Text” 
+﻿Problem: “Search & Replace Asserted Time Text” 
 Solution:
-Regex Pattern: ^((hh):(mm)) (am/pm)$ 
-Regex Characters: 
+1) Regex Pattern: ^(((hh):(mm)) am|pm)$
+
+2) Regex Characters: 
 1. ^ = Starting of a finding portion of a Line
 2. $ = Ending of a finding portion of a Line
 3. () = Grouping 
-Regular Expression: 
+
+3) Groups:
+1. G1 => hh (hour) [01 to 12] or [01 to 24] in yellow color
+2. G2 => mm (minute) [01 to 59] in green color
+3. G3 => hh:mm (24 hours format) [01 to 24]:[01 to 59] in blue color
+4. G4 => hh:mm am|pm (12 hours format) [01 to 12]:[01 to 59] [AM,PM] in red color
+
+4) Regular Expression: 
 v1: ((([1-9]|1[0-2]):([0-5][0-9]))\s(am|AM|pm|PM)) 
 v2: (((0?[1-9]|1[0-2]):([0-5][0-9]))\s?(am|AM|pm|PM))
 
-Follow these steps for a replacement of asserted text using regular expression:
+5) Start Notepad++ and follow these steps for a replacement of asserted text using regular expression:
 1. Ctrl + H to find & replace 
-2. Find what: use either v1 or v2 version of a regular expression	 
+2. Find what: use either v1 or v2 version of a regular expression respectively	 
 3. Replace with: “${1}” 
 4. Selected Checkboxes: Match case, Wrap around. 
 5. Search Mode: Regular Expression 
-6. Click Replace for Single Line or Replace All for Multiple Lines.  
+6. Click Replace for Single Line or Replace All for Multiple Lines to replace finding portion.  

@@ -8,10 +8,10 @@ Solution:
 3. () = Grouping 
 
 3) Groups:
-1. G1 => hh (hour) [01 to 12] or [00 to 23] in yellow color
-2. G2 => mm (minute) [00 to 59] in green color
-3. G3 => hh:mm (24 hours format) [00 to 23]:[00 to 59] in blue color
-4. G4 => hh:mm am|pm (12 hours format) [01 to 12]:[00 to 59] [AM,PM] in red color
+1. G1 => hh (hour) [01 to 12] or [00 to 23] in light yellow color
+2. G2 => mm (minute) [00 to 59] in light green color
+3. G3 => hh:mm (24 hours format) [00 to 23]:[00 to 59] in light blue color
+4. G4 => hh:mm am|pm (12 hours format) [01 to 12]:[00 to 59] [AM,PM] in light red color
 
 4) Regular Expression: 
 v1: ((0[0-9]|1[0-9]|2[0-3]):([0-5][0-9]))
@@ -20,7 +20,7 @@ v2: (((0?[1-9]|1[0-2]):([0-5][0-9]))\s?(am|AM|pm|PM))
 5) Start Notepad++ and follow these steps for a replacement of asserted text using regular expression:
 1. Ctrl + H to find & replace 
 2. Find what: use either v1 or v2 version of a regular expression respectively	 
-3. Replace with: “${1}” 
+3. Replace with: "${1}"
 4. Selected Checkboxes: Match case, Wrap around. 
 5. Search Mode: Regular Expression
 6. Click Replace for Single Line or Replace All for Multiple Lines to replace finding portion.  

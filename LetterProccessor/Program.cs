@@ -1,4 +1,5 @@
-﻿string input = "this interview is for full stack developer with string";
+﻿// Concern: "A first letter should be capitalized for the words which are having more than three number of letters"
+string input = "this interview is for full stack developer with string";
 string storedLetters = string.Empty;
 string renewedLetters = string.Empty;
 string subStringChar = string.Empty;	
@@ -60,7 +61,7 @@ else {
 					+ input[charCounterWithSpace + 2].ToString();
 }
 Console.WriteLine(renewedLetters);
-Console.WriteLine("Total words: " + wordCounter);
-Console.WriteLine("Total characters: " + charCounter);
+Console.WriteLine("Total Words: " + wordCounter);
+Console.WriteLine("Total Characters: " + charCounter);
 
 

@@ -1,37 +1,51 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.Text.RegularExpressions;
+using RegularExpression;
 
-string todayDate = DateTime.Now.ToString("MM/dd/yyyy");
-string currentTime = DateTime.Now.ToString("hh:mm tt").Trim();
-string input = "Today is " + todayDate + " and current time is " + currentTime + ".";
-string regExp = "(((0?[1-9]|1[0-2]):([0-5][0-9]))\\s?(am|AM|pm|PM))";
-Regex regex = new(regExp);
+string dateToday = DateTime.Now.ToString(ConsoleOutput.dateFormat).Trim();
+string currentTime = DateTime.Now.ToString(ConsoleOutput.timeFormat).Trim();
+string input = "Today is " + dateToday + " and current time is " + currentTime + ".";
+string inputCmd = string.Concat(ConsoleOutput.inputText, input);
+Console.WriteLine(inputCmd);
+Regex regex = new(ConsoleOutput.regExp);
 var match = regex.Match(input);
-if (match.Success) {
-    Console.WriteLine(input);
-    int length = currentTime.Length;
-    int zerothIndex = length - length;
-    int firstIndex = length - (length - 1);
-    int thirdIndex = length - ((length - 1) - 1) + 1;
-    int fourthIndex = length - (((length - 1) - 1) - 1) + 1;
-    string hourText = match.Value[zerothIndex].ToString() + match.Value[firstIndex].ToString();
-    string minuteText = match.Value[thirdIndex].ToString() + match.Value[fourthIndex].ToString();
-    string amPm = currentTime[(length - 1) - 1].ToString() + currentTime[length - 1].ToString();
-    var hour = Convert.ToInt16(hourText);
-    var minute = Convert.ToInt16(minuteText);
-    var replaceText = hourText + (hour >= 2 && hour <= 12 ? " hours" : " hour") 
-                    + " and " + minuteText + (minute >= 2 && minute <= 59 ? " minutes" : " minute") + "";
-    if ((hour >= 07 && hour < 12) && amPm == "AM") {
-        replaceText += " in the morning";
-    } else if (((hour >= 01 && hour <= 03) || hour == 12) && amPm == "PM") {
-        replaceText += " in the afternoon";
-    } else if ((hour >= 04 && hour <= 06) && amPm == "PM") {
-        replaceText += " in the evening";
-    } else if ((hour >= 07 && hour < 12) && amPm == "PM") {
-        replaceText += " in the night";
-    } else if (((hour >= 01 && hour <= 06) || hour == 12) && amPm == "AM") { 
-        replaceText += " in the midnight";
+bool isMatched = match.Success;
+if (isMatched) {
+    string matchValue = match.Value;
+    var hoursMinutes = string.IsNullOrEmpty(matchValue) ? currentTime.Split(ConsoleOutput.space) : matchValue.Split(ConsoleOutput.space);
+    string hourText = hoursMinutes[0].Split(ConsoleOutput.colon)[0];
+    string minuteText = hoursMinutes[0].Split(ConsoleOutput.colon)[1];
+    string amPm = hoursMinutes[1];
+    try {
+        int hour = int.Parse(hourText);
+        int minute = int.Parse(minuteText);
+        string hoursRange = hour >= 02 && hour <= 12 ? ConsoleOutput.hours : ConsoleOutput.hour;
+        string minutesRange = minute >= 02 && minute <= 59 ? ConsoleOutput.minutes : ConsoleOutput.minute;
+        string hoursTime = string.Concat(hourText, hoursRange);
+        string minutesTime = string.Concat(minuteText, minutesRange);
+        var replaceText = string.Concat(hoursTime, ConsoleOutput.and, minutesTime);
+        if (hour >= 07 && hour < 12 && amPm == ConsoleOutput.am) {
+            replaceText += ConsoleOutput.morning;
+        } else if (hour >= 01 && hour <= 03 || hour == 12 && amPm == ConsoleOutput.pm) {
+            replaceText += ConsoleOutput.afternoon;
+        } else if (hour >= 04 && hour <= 06 && amPm == ConsoleOutput.pm) {
+            replaceText += ConsoleOutput.evening;
+        } else if (hour >= 07 && hour < 12 && amPm == ConsoleOutput.pm) {
+            replaceText += ConsoleOutput.night;
+        } else if (hour >= 01 && hour <= 06 || hour == 12 && amPm == ConsoleOutput.am) {
+            replaceText += ConsoleOutput.midNight;
+        }
+        var output = input.Replace(matchValue, replaceText);
+        string outputCmd = string.Concat(ConsoleOutput.outputText, output);
+        Console.WriteLine(outputCmd);
+    } catch (FormatException) {
+        string outputCmd = string.Concat(ConsoleOutput.outputText, ConsoleOutput.nonIntegerOutput);
+        Console.WriteLine(outputCmd);
+    } catch (OverflowException) {
+        string outputCmd = string.Concat(ConsoleOutput.outputText, ConsoleOutput.overflowIntegerOutput);
+        Console.WriteLine(outputCmd);
     }
-    var newInput = input.Replace(match.Value, replaceText);
-    Console.WriteLine(newInput);
+} else {
+    string outputCmd = string.Concat(ConsoleOutput.outputText, ConsoleOutput.falseMatchOutput);
+    Console.WriteLine(outputCmd);
 }

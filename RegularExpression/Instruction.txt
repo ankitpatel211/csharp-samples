@@ -19,7 +19,7 @@ v2: (((0?[1-9]|1[0-2]):([0-5][0-9]))\s?(am|AM|pm|PM))
 
 5) Start Notepad++ and follow these steps for a replacement of asserted text using regular expression:
 1. Ctrl + H to find & replace 
-2. Find what: use either v1 or v2 version of a regular expression respectively	 
+2. Find what: Use either v1 or v2 version of a regular expression respectively	 
 3. Replace with: "${1}"
 4. Selected Checkboxes: Match case, Wrap around. 
 5. Search Mode: Regular Expression

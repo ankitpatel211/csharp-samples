@@ -58,5 +58,5 @@ A simple program to find the second largest number in a given array of numbers. 
 ## Sorting
 
 A program to sort the given array of numbers in ascending order. Ex.
-Input: numbers = { 42, 30, 12, 56, 89, 45, 37 }, Output: { 30, 42, 37, 45, 56, 89, 12 }.
+Input: numbers = { 42, 30, 12, 56, 89, 45, 37 }, Output: { 12, 30, 37, 42, 45, 56, 89 }.
 

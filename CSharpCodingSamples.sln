@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeSnippets", "CodeSnippet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegularExpression", "RegularExpression\RegularExpression.csproj", "{7736A376-F907-4D82-B709-D62D14EC1C3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryPath", "DirectoryPath\DirectoryPath.csproj", "{FBD6CD5D-D8FE-40F3-9131-936CA185A0AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{7736A376-F907-4D82-B709-D62D14EC1C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7736A376-F907-4D82-B709-D62D14EC1C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7736A376-F907-4D82-B709-D62D14EC1C3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBD6CD5D-D8FE-40F3-9131-936CA185A0AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD6CD5D-D8FE-40F3-9131-936CA185A0AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD6CD5D-D8FE-40F3-9131-936CA185A0AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD6CD5D-D8FE-40F3-9131-936CA185A0AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

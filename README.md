@@ -30,6 +30,10 @@ A program to return appropriate exception messages for different scenarios whene
 
 A program to demonstrate the difference between data types by returning the value of each data type. Ex. int, long, float, double etc. Input: int=-25, long=-100000L, d=-12.34, Output: 25, 100000, -12.34.
 
+## DirectoryPath
+
+A program that extracts filename and filepath. Example, Input: path = "C:\Users\patel\source\repos\ankitpatel211\CSharp-Samples\CodeSnippets\CodeSnippets.cs", Output: File name: CodeSnippets.cs, File path: C:\Users\patel\source\repos\ankitpatel211\CSharp-Samples\CodeSnippets
+
 ## DuplicateNumbers
 
 A program to find the duplicate numbers in a given array of numbers.
@@ -59,4 +63,3 @@ A simple program to find the second largest number in a given array of numbers. 
 
 A program to sort the given array of numbers in ascending order. Ex.
 Input: numbers = { 42, 30, 12, 56, 89, 45, 37 }, Output: { 12, 30, 37, 42, 45, 56, 89 }.
-

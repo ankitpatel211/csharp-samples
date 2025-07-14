@@ -1,12 +1,12 @@
 ﻿
-string directoryPath = "C:/Users/patel/source/repos/ankitpatel211/CSharp-Samples/Directory/Directory.cs";
+string directoryPath = "C:\\Users\\patel\\source\\repos\\ankitpatel211\\CSharp-Samples\\Directory\\Directory.cs";
 string directory = string.Empty;
 string fileName = string.Empty;
 string reverseFilename = string.Empty;
 int slashIndex = 0;
 
 for (int i = directoryPath.Length - 1; i >= 0; i--) {
-    if (directoryPath[i] == '/') {
+    if (directoryPath[i] == '/' || directoryPath[i] == '\\') {
         slashIndex = i;
         break;
     }

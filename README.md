@@ -32,7 +32,7 @@ A program to demonstrate the difference between data types by returning the valu
 
 ## DirectoryPath
 
-A program that extracts filename and filepath. Example, Input: path = "C:\Users\patel\source\repos\ankitpatel211\CSharp-Samples\CodeSnippets\CodeSnippets.cs", Output: File name: CodeSnippets.cs, File path: C:\Users\patel\source\repos\ankitpatel211\CSharp-Samples\CodeSnippets
+A program that extracts filename and filepath. Example, Input: path = "C:\\Users\\patel\\source\\repos\\ankitpatel211\\CSharp-Samples\\CodeSnippets\\CodeSnippets.cs", Output: Filename: CodeSnippets.cs, Filepath: C:\\Users\\patel\\source\\repos\\ankitpatel211\\CSharp-Samples\\CodeSnippets
 
 ## DuplicateNumbers
 

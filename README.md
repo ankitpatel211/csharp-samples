@@ -10,13 +10,15 @@ A C# coding samples to try various features and best practices to have a command
 1. ATMPinValidator
 2. CodeSnippets
 3. DataTypes
-4. DuplicateNumbers
-5. LetterProcessor
-6. Patterns
-7. PlusMinusNeutral
-8. RegularExpression
-9. SecondMostSorting
-10. Sorting
+4. DirectoryPath
+5. DuplicateNumbers
+6. LetterProcessor
+7. Patterns
+8. PlusMinusNeutral
+9. RegexPath
+10. RegularExpression
+11. SecondMostSorting
+12. Sorting
 
 ## ATMPinValidator
 
@@ -50,6 +52,12 @@ A random pattern matching program.
 ## PlusMinusNeutral
 
 A program to return the positive numbers and negative numbers and a number 0 from a given array. Input: = Enter a list of integers horizontally separated by a blank space to differentiate these numbers into three categories of positive numbers, negative numbers, and zero. Ex. Input: numbers = { - 1, -3, 4, 0, -2, 5, -1 }, Output:  Positive Numbers: { 1, 4, 5 }, Negative Numbers: { -3, -2, -1 }, Zero Numbers: { 0 }.
+
+## RegexPath
+
+A program that extracts filename, filepath, foldername, and folderpath from a given string. Input: C:\\Users\\patel\\source\\repos\\ankitpatel211\\CSharp-Samples\\README.md, Output: FileName= README.md, FilePath= C:\\Users\\patel\\source\\repos\\ankitpatel211\\CSharp-Samples\\
+FolderName= CSharp-Samples\\
+FolderPath= C:\\Users\\patel\\source\\repos\\ankitpatel211\\
 
 ## RegularExpression
 

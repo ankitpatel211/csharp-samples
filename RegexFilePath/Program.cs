@@ -8,10 +8,10 @@ string newFilePath = Regex.Replace(filePath, fileOrFolderRegex, string.Empty);
 string fileName = Regex.Match(filePath, fileOrFolderRegex).Value;
 string folderName = Regex.Match(newFilePath, fileOrFolderRegex).Value;
 string folderPath = Regex.Replace(newFilePath, fileOrFolderRegex, string.Empty);
-Console.WriteLine("FileName: " + fileName);
-Console.WriteLine("FilePath: " + newFilePath);
-Console.WriteLine("FolderName: " + folderName);
-Console.WriteLine("FolderPath: " + folderPath);
+Console.WriteLine("FileName= " + fileName);
+Console.WriteLine("FilePath= " + newFilePath);
+Console.WriteLine("FolderName= " + folderName);
+Console.WriteLine("FolderPath= " + folderPath);
 
 
 

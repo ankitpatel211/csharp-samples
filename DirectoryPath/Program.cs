@@ -1,22 +1,21 @@
-﻿
-string directoryPath = "C:\\Users\\patel\\source\\repos\\ankitpatel211\\CSharp-Samples\\Directory\\Directory.cs";
-string directory = string.Empty;
+﻿string filePath = "C:\\Users\\patel\\source\\repos\\ankitpatel211\\CSharp-Samples\\Directory\\Directory.cs";
+string fileDirectory = string.Empty;
 string fileName = string.Empty;
 string reverseFilename = string.Empty;
 int slashIndex = 0;
 
-for (int i = directoryPath.Length - 1; i >= 0; i--) {
-    if (directoryPath[i] == '/' || directoryPath[i] == '\\') {
+for (int i = filePath.Length - 1; i >= 0; i--) {
+    if (filePath[i] == '/' || filePath[i] == '\\') {
         slashIndex = i;
         break;
     }
-    reverseFilename += directoryPath[i];
+    reverseFilename += filePath[i];
 }
 for (int j = reverseFilename.Length - 1; j >= 0; j--) {
     fileName += reverseFilename[j];
 }
 Console.WriteLine("Filename: " + fileName);
 for (int i = 0; i < slashIndex; i++) {
-    directory = directory + directoryPath[i];
+    fileDirectory = fileDirectory + filePath[i];
 }
-Console.WriteLine("Filepath: " + directory);
+Console.WriteLine("Filepath: " + fileDirectory);

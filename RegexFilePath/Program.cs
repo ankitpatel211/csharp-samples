@@ -43,4 +43,3 @@ if (!string.IsNullOrEmpty(fileName)
     Console.WriteLine("\tFilePath= " + filePath);
 if (!string.IsNullOrEmpty(fileName))
     Console.WriteLine("\tFileName= " + fileName);
-
